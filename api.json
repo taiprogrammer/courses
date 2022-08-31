@@ -1,0 +1,114 @@
+{
+    "home": {
+        "id": "home",
+        "nome": "Courses",
+        "descricao": "Página inicial",
+        "avaliacoes": [
+            {
+                "nome": "Mariana",
+                "descricao": "Gostei muito do curso, com ele eu consegui fazer o meu primeiro site."
+            },
+            {
+                "nome": "Matheus",
+                "descricao": "Consegui meu primeiro emprego logo após terminar este curso."
+            },
+            {
+                "nome": "Pedro",
+                "descricao": "Gostei muito do curso, mas poderia maneirar um pouco no sotaque."
+            }
+        ]
+    },
+    "contato": {
+        "id": "contato",
+        "nome": "Contato",
+        "descricao": "Página contato"
+    },
+    "cursos": [
+        {
+            "id": "html-css",
+            "nome": "HTML & CSS",
+            "descricao": "Curso HTML & CSS",
+            "aulas": [
+                {
+                    "id": "html",
+                    "nome": "Introdução ao HTML",
+                    "descricao": "Aula introdutória ao HTML",
+                    "duracao": "00:30:00"
+                },
+                {
+                    "id": "tags",
+                    "nome": "Tags do HTML",
+                    "descricao": "Aula introdutória às tags do HTML",
+                    "duracao": "01:45:00"
+                },
+                {
+                    "id": "semantica",
+                    "nome": "Semântica no HTML",
+                    "descricao": "O que é e porquê da semântica no HTML?",
+                    "duracao": "01:50:30"
+                }
+            ]
+        },
+        {
+            "id": "javascript",
+            "nome": "JavaScript",
+            "descricao": "Curso JavaScript",
+            "aulas": [
+                {
+                    "id": "introducao",
+                    "nome": "A Linguagem JavaScript",
+                    "descricao": "Introdução à linguagem JavaScript",
+                    "duracao": "00:09:42"
+                },
+                {
+                    "id": "ferramentas",
+                    "nome": "VSCode, Node e Git",
+                    "descricao": "Ferramentas que serão utilizadas no curso",
+                    "duracao": "00:19:35"
+                },
+                {
+                    "id": "variaveis",
+                    "nome": "Variáveis",
+                    "descricao": "Introdução à variáveis",
+                    "duracao": "00:22:14"
+                },
+                {
+                    "id": "tipos-dados",
+                    "nome": "Tipos de Dados",
+                    "descricao": "Tipos de dados e variáveis",
+                    "duracao": "00:18:31"
+                }
+            ]
+        },
+        {
+            "id": "vue-js",
+            "nome": "Vue JS",
+            "descricao": "Curso Vue JS",
+            "aulas": [
+                {
+                    "id": "introducao",
+                    "nome": "Introdução ao Vue JS",
+                    "descricao": "Introdução ao Framework Vue JS",
+                    "duracao": "00:05:48"
+                },
+                {
+                    "id": "ferramentas",
+                    "nome": "Ferramentas do Curso",
+                    "descricao": "Ferramentas que serão utilizadas no curso",
+                    "duracao": "00:04:09"
+                }
+            ]
+        },
+        {
+            "id": "react-js",
+            "nome": "React JS",
+            "descricao": "Curso React JS"
+        },
+        {
+            "id": "flexbox",
+            "nome": "Flexbox - CSS",
+            "descricao": "Curso Flexbox"
+        }
+    ]
+    
+}
