@@ -2,8 +2,8 @@
   <div>
     <HeaderComponent />
     <div class="container">
-      <h1>Home</h1>
-      <router-link to="/contato">Contato</router-link>
+      <h1>Contato</h1>
+      <router-link to="/">Home</router-link>
     </div>
   </div>
 </template>
@@ -11,7 +11,7 @@
 <script>
 import HeaderComponent from "@/components/HeaderComponent.vue";
 export default {
-  name: "HomeView",
+  name: "ContactView",
   components: {
     HeaderComponent,
   },
